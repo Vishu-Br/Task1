@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+}
+.pic img{
+    display: block;
+    width: 100%;
+    height: 17rem;
+}
+.pic{
+    width: 20rem;
+    height: 15rem;
+    background-color: rgb(160, 108, 209);
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+.about{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 20px;
+}
+.about h1{
+    display: inline;
+    margin: auto;
+    padding-bottom: 15px;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about article{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    padding-top: 50px;
+}
+
+.social a {
+    margin: 0 15px; 
+    text-align: center;
+}
+
+.social a i {
+    font-size: 3.5rem;
+    color: rgb(225, 31, 31);
+}
+.bio{
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+.bio :hover{
+    background-color: rgb(49, 44, 44);
+}
+.bio pre{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
